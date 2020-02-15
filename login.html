@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <style>
+                body,html{
+                margin:0;
+                padding:0;
+            }
+            body::-webkit-scrollbar {
+              width: 0.2em;
+            }
+         
+            body::-webkit-scrollbar-track {
+                -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            }
+         
+            body::-webkit-scrollbar-thumb {
+              background-color: darkgrey;
+              outline: 1px solid slategrey;
+            }
+    </style>
+</head>
+
+<body style="overflow: hidden;">
+    <div class="navbar-fixed" style="position: absolute;">
+        <nav class=" onscroll transparent black-text" style="box-shadow: none;">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo rm">Logo</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons white-text">menu</i></a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a class="black-text" href="index.html">Home</a></li>
+                    <li><a class="black-text" href="about.html">About</a></li>
+                    <li><a class="black-text" href="register.html">Register</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="register.html">Register</a></li>
+    </ul>
+    <div class="row">
+        <div class="col s12 m8 l8 blue hide-on-med-and-down" style="height:750px;">
+            <div class="content" style="text-align: center;margin-top:20%">
+                <p class="white-text">
+                    You can write any type here
+                    
+                </p>
+            </div>            
+        </div>
+        <dv class="col  s12 m3 13 blue hide-on-large-only" style="height:300px;">
+
+            <div class="content">
+                <p>
+                    dfnksgndfmsxjgbvsnxc,nv d,mxcn vm 
+
+                </p>
+            </div>
+        </dv>
+        <div class="col s12 m4 l4">
+            <form action="" class="container" style="margin-top:30%">
+                <h3>
+                    Signin
+                </h3>
+                <div class="divider blue" style="width:80px;height: 2px;border-radius: 3px;"></div>
+                <div class="row">
+                    <div class="input-field col s12 m12">
+                        <input type="email" class="validate" name="email" id="email" required>
+                        <label for="email">Email</label>
+                    </div>
+                    <div class="input-field col s12 m12">
+                        <input type="password" class="validate" name="password" id="password" required>
+                        <label for="password">Password</label>
+                    </div>
+                    <div class="col s12">
+                        <button class="btn-flat" style="border: 1px solid black;border-radius: 30px;">Login</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script>
+        $(document).ready(function () {
+            
+
+            $('.carousel.carousel-slider').carousel({
+                fullWidth: true,
+                indicators: true,
+                duration:200
+            });
+            $('.sidenav').sidenav();
+        })
+    </script>
+
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
